@@ -1,4 +1,4 @@
-baseurl: https://CyuHat.github.io
+baseurl: https://username.github.io
 DefaultContentLanguage: en
 title: Collectif Balein bleue
 theme: beautifulhugo
@@ -20,7 +20,7 @@ Params:
   rss: yes
   showRelatedPosts: yes
   socialShare: yes
-  subtitle: Collectif engagé pour le climat
+  subtitle: Collectif engagé pour le clima
   useHLJS: yes
   wordCount: yes
 Author:
