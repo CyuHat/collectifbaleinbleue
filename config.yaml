@@ -1,82 +1,43 @@
-baseurl: https://username.github.io
-DefaultContentLanguage: en
-title: Collectif Balein bleue
-theme: beautifulhugo
-pygmentsStyle: trac
-pygmentsUseClasses: yes
-pygmentsCodeFences: yes
-pygmentsCodefencesGuessSyntax: yes
-Params:
-  comments: yes
-  commit: no
-  dateFormat: 2 Jan 2006
-  delayDisqus: yes
-  favicon: img/favicon.ico
-  logo: img/avatar-icon.png
-  mainSections:
-    - post
-    - posts
-  readingTime: yes
-  rss: yes
-  showRelatedPosts: yes
-  socialShare: yes
-  subtitle: Collectif engagé pour le clima
-  useHLJS: yes
-  wordCount: yes
-Author:
-  500px: username
-  bandcamp: username
-  bitbucket: username
-  codepen: username
-  discord: invite code (https://discord.gg/XXXXXXX)
-  email: youremail@domain.com
-  facebook: username
-  github: username
-  gitlab: username
-  instagram: username
-  itchio: username
-  kaggle: username
-  linkedin: username
-  mastodon: url
-  name: Some Person
-  paypal: username
-  reddit: username
-  slack: username
-  snapchat: username
-  soundcloud: username
-  spotify: username
-  stackoverflow: users/XXXXXXX/username
-  strava: userid
-  telegram: username
-  twitter: username
-  vk: username
-  website: yourwebsite.com
-  weibo: username
-  xing: username
-  youtube: user/username
+baseurl: /
+languageCode: en-us
+title: A Hugo website
+theme: hugo-lithium
+googleAnalytics: ''
+disqusShortname: ''
+ignoreFiles:
+  - \.Rmd$
+  - \.Rmarkdown$
+  - _cache$
+  - \.knit\.md$
+  - \.utf8\.md$
+permalinks:
+  post: /:year/:month/:day/:slug/
 menu:
   main:
-    - name: Blog
-      url: ''
-      weight: 1
     - name: About
-      url: page/about/
-      weight: 3
-    - identifier: samples
-      name: Samples
-      weight: 2
-    - name: Big Image Sample
-      parent: samples
-      url: post/2017-03-07-bigimg-sample
-      weight: 1
-    - name: Math Sample
-      parent: samples
-      url: post/2017-03-05-math-sample
-      weight: 2
-    - name: Code Sample
-      parent: samples
-      url: post/2016-03-08-code-sample
-      weight: 3
-    - name: Tags
-      url: tags
-      weight: 3
+      url: /about/
+    - name: GitHub
+      url: https://github.com/rstudio/blogdown
+    - name: Twitter
+      url: https://twitter.com/rstudio
+params:
+  MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
+  MathJaxVersion: 2.7.5
+  description: A website built through Hugo and blogdown.
+  favicon: favicon.ico
+  highlightjsCDN: //cdnjs.cloudflare.com/ajax/libs
+  highlightjsLang:
+    - r
+    - yaml
+  highlightjsTheme: github
+  highlightjsVersion: 9.12.0
+  logo:
+    alt: Logo
+    height: 50
+    url: logo.png
+    width: 50
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: yes
