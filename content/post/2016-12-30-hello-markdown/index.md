@@ -1,7 +1,5 @@
 ---
 date: "2023-05-10"
 author: Vestin Hategekimana
-title: Un document d'exemple
+title: Articles à venir
 ---
-
-C'est un ficheir d'exemple
