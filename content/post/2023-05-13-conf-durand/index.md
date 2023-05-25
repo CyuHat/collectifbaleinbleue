@@ -1,10 +1,10 @@
 ---
 date: "2023-05-10"
-author: Collectif Baleine Bleue
-title: Conf: Créer un avenir durable: la planification écologique comme outil de transformation
+author: Collectif baleine bleue
+title: Créer un avenir durable la planification écologique comme outil de transformation
 ---
 
-![](Bannière urgence climatique.png)
+![](ban.png)
 
 **Série de conférences : Urgence climatique**
 
